@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3248c3ba-128e-4eb1-8212-339e28200244" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataHumanTaskECoG_v1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi2_numhypiter10_numQ2_numspectralpttotal204_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataHumanTaskECoG_v3_Hz1-100_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal10_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPhoneme10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ6_numspectralpttotal102_numbatchrrff1_repetitiveexp2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numQ6_numspectralpttotal100_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal100_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal100_numbatchrrff1_repetitiveexp5.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi2_numhypiter5_numQ4_numspectralpttotal100_numbatchrrff1_repetitiveexp2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ6_numspectralpttotal100_numbatchrrff1_repetitiveexp2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal20_numbatchrrff1_repetitiveexp2.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupyters/result_pickle/datadigit_jackson_Hz1-500_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ4_numspectralpttotal102_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kernels/Periodic_kernel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp1-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp1-1_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp1-2_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp1-2_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_exp3_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hmm_models_v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UAI20_HybridHmmGP-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UAI20_HybridHmmGP-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_Exp1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_Exp2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_Exp3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ10_numspectralpttotal50_numbatchrrff1_repetitiveexp1.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ10_numspectralpttotal50_numbatchrrff1_repetitiveexp1.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal100_numbatchrrff1_repetitiveexp5.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongprrff_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal100_numbatchrrff1_repetitiveexp5.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v4.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v4.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp5_v2.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi10_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp5_v2.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v444.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodSVI_lenbatchsvi20_numbatchsvi1_numhypiter10_numQ7_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v444.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodVBEM_lenbatchsvi100_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v4.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodVBEM_lenbatchsvi100_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal20_numbatchrrff1_repetitiveexp1_v4.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodVBEM_lenbatchsvi100_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal20_numbatchrrff1_repetitiveexp2.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/jupyters/result_pickle/dataPigCVP10_Set_Dynamic_Downsample_rate1_fulllen100_emissiongpsm_trainmethodVBEM_lenbatchsvi100_numbatchsvi1_numhypiter10_numQ5_numspectralpttotal20_numbatchrrff1_repetitiveexp2.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernels/RBF_kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/kernels/RBF_kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernels/SM_kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/kernels/SM_kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernels/kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/kernels/kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exp_v1-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exp_v1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exp_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exp_v3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/demo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/emission_gp.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/emission_gp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/emission_gp_rrff.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/emission_gp_rrff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hmm_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hmm_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hmm_models_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hmm_models_v3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models_utility/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models_utility/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models_utility/construct_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models_utility/construct_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models_utility/function_gp.py" beforeDir="false" afterPath="$PROJECT_DIR$/models_utility/function_gp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models_utility/likelihoods.py" beforeDir="false" afterPath="$PROJECT_DIR$/models_utility/likelihoods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models_utility/train_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utility/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/utility/dataset.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp1_1.coverage" NAME="main_exp1-1 Coverage Results" MODIFIED="1593866170951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$hmm_models_v2.coverage" NAME="hmm_models_v2 Coverage Results" MODIFIED="1580384455158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp_v1.coverage" NAME="main_exp_v1 Coverage Results" MODIFIED="1580200841600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$demo.coverage" NAME="demo Coverage Results" MODIFIED="1594458518997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$emission_gp_rrff.coverage" NAME="emission_gp_rrff Coverage Results" MODIFIED="1580222421774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$emission_models.coverage" NAME="emission_models Coverage Results" MODIFIED="1579624428651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$train.coverage" NAME="train Coverage Results" MODIFIED="1579850531003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$emission_gp_rrff.coverage" NAME="emission_gp_rrff Coverage Results" MODIFIED="1592231961370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp1_v2.coverage" NAME="main_exp1_v2 Coverage Results" MODIFIED="1593709487991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp3_v2.coverage" NAME="main_exp3_v2 Coverage Results" MODIFIED="1602133490894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$emission_gp_deepkernel.coverage" NAME="emission_gp_deepkernel Coverage Results" MODIFIED="1580746051574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp1_1.coverage" NAME="main_exp1-1 Coverage Results" MODIFIED="1592304973279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$hmm_models.coverage" NAME="hmm_models Coverage Results" MODIFIED="1580278524179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$RBF_kernel.coverage" NAME="RBF_kernel Coverage Results" MODIFIED="1579774892417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kernels" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp_v2_benchmark.coverage" NAME="main_exp_v2_benchmark Coverage Results" MODIFIED="1589773743593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$likelihoods.coverage" NAME="likelihoods Coverage Results" MODIFIED="1579774232588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$knndtw.coverage" NAME="knndtw Coverage Results" MODIFIED="1589768124548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_benchmark" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$hmm_models_v4.coverage" NAME="hmm_models_v4 Coverage Results" MODIFIED="1592281772596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$kernel__1_.coverage" NAME="kernel (1) Coverage Results" MODIFIED="1579769287614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kernels" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$construct_models.coverage" NAME="construct_models Coverage Results" MODIFIED="1580183937535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp_v2.coverage" NAME="main_exp_v2 Coverage Results" MODIFIED="1589728256593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp3.coverage" NAME="main_exp3 Coverage Results" MODIFIED="1592308766447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp3_v2.coverage" NAME="main_exp3_v2 Coverage Results" MODIFIED="1592359867943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$main_exp_v1.coverage" NAME="main_exp_v1 Coverage Results" MODIFIED="1580714609242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$SM_kernel.coverage" NAME="SM_kernel Coverage Results" MODIFIED="1580141147389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kernels" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp_v23_benchmark.coverage" NAME="main_exp_v23_benchmark Coverage Results" MODIFIED="1589793818393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$demo.coverage" NAME="demo Coverage Results" MODIFIED="1592319097185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$function_gp.coverage" NAME="function_gp Coverage Results" MODIFIED="1602139234013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$function.coverage" NAME="function Coverage Results" MODIFIED="1579746834510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$hmm_models.coverage" NAME="hmm_models Coverage Results" MODIFIED="1580183889767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$densities.coverage" NAME="densities Coverage Results" MODIFIED="1579703011775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$train_models.coverage" NAME="train_models Coverage Results" MODIFIED="1580206306242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$kernel.coverage" NAME="kernel Coverage Results" MODIFIED="1579764901436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAI20_HybridHMMGP/kernels" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$emission_gp_rrff.coverage" NAME="emission_gp_rrff Coverage Results" MODIFIED="1603008591962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp1_2_v2.coverage" NAME="main_exp1-2_v2 Coverage Results" MODIFIED="1602134341044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$hmm_models_v3.coverage" NAME="hmm_models_v3 Coverage Results" MODIFIED="1592231872122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$main_exp_v3.coverage" NAME="main_exp_v3 Coverage Results" MODIFIED="1592280519673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1579846681817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_V2_9234$hmm_models_v3.coverage" NAME="hmm_models_v3 Coverage Results" MODIFIED="1580403553545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$demo2__2_.coverage" NAME="demo2 (2) Coverage Results" MODIFIED="1579767093559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$construct_emission.coverage" NAME="construct_emission Coverage Results" MODIFIED="1579766761888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$likelihoods.coverage" NAME="likelihoods Coverage Results" MODIFIED="1594278887255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$emission_gp.coverage" NAME="emission_gp Coverage Results" MODIFIED="1602134515613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1580893398655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp1_2_v3.coverage" NAME="main_exp1-2_v3 Coverage Results" MODIFIED="1603034224509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$emission_gp.coverage" NAME="emission_gp Coverage Results" MODIFIED="1580746536113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$hmm_models_v4.coverage" NAME="hmm_models_v4 Coverage Results" MODIFIED="1602149015749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$models.coverage" NAME="models Coverage Results" MODIFIED="1579750086926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1579766258624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UAI20_HybridHMMGP" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master_9234$main_exp1_1_v2.coverage" NAME="main_exp1-1_v2 Coverage Results" MODIFIED="1594363855092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$function_gp.coverage" NAME="function_gp Coverage Results" MODIFIED="1579749568075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$param_gp.coverage" NAME="param_gp Coverage Results" MODIFIED="1579770962441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$train_models.coverage" NAME="train_models Coverage Results" MODIFIED="1580194794027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models_utility" />
+    <SUITE FILE_PATH="coverage/UAI20_HybridHmmGP_master$param.coverage" NAME="param Coverage Results" MODIFIED="1579749520359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_exp1-2_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kernels/SM_kernel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/emission_gp_rrff.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12240">
+              <caret line="692" selection-start-line="692" selection-end-line="692" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_exp3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_exp2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="38" lean-forward="true" selection-end-line="204" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_exp3_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_exp1-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/hmm_models_v4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1836">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models_utility/construct_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2358">
+              <caret line="148" column="58" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.num_sample_opt</find>
+      <find>self.num_sample</find>
+      <find>tensor_t</find>
+      <find>self.tensor_type</find>
+      <find>self.lr_emission_hyp</find>
+      <find>self.lr_</find>
+      <find>_calc_obs</find>
+      <find>sel</find>
+      <find>self.log_qsi</find>
+      <find>self.log_c</find>
+      <find>self.log_C</find>
+      <find>accuracy</find>
+      <find>self._run_smoothing</find>
+      <find>self.log_</find>
+      <find>_get_elbo</find>
+      <find>self._get_elbo</find>
+      <find>random_seed</find>
+      <find>print(</find>
+      <find>after</find>
+      <find>print</find>
+      <find>self.num_samplept_list_at</find>
+      <find>self.lambda_w</find>
+      <find>lambda_w</find>
+      <find>param_hi</find>
+      <find>self.sf2</find>
+      <find>_get_log_prob</find>
+      <find>hihi</find>
+      <find>param</find>
+      <find>file</find>
+      <find>#</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.num_batch</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UAI20_HybridHMMGP/kernels/kernel.py" />
+        <option value="$PROJECT_DIR$/UAI20_HybridHMMGP/__init__.py" />
+        <option value="$PROJECT_DIR$/UAI20_HybridHMMGP/demo2.py" />
+        <option value="$PROJECT_DIR$/utility/__init__.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/models_utility/param_gp.py" />
+        <option value="$PROJECT_DIR$/models_utility/construct_emission.py" />
+        <option value="$PROJECT_DIR$/models/demo3.py" />
+        <option value="$PROJECT_DIR$/models_utility/train.py" />
+        <option value="$PROJECT_DIR$/utility/eval_metric.py" />
+        <option value="$PROJECT_DIR$/models/hmm_models_v2.py" />
+        <option value="$PROJECT_DIR$/models_utility/train_models.py" />
+        <option value="$PROJECT_DIR$/main_exp_v1.py" />
+        <option value="$PROJECT_DIR$/models/emission_gp_deepkernel.py" />
+        <option value="$PROJECT_DIR$/Run_Exp3.py" />
+        <option value="$PROJECT_DIR$/Run_Exp2.py" />
+        <option value="$PROJECT_DIR$/Run_Exp1.py" />
+        <option value="$PROJECT_DIR$/models/hmm_models.py" />
+        <option value="$PROJECT_DIR$/utility/dataset.py" />
+        <option value="$PROJECT_DIR$/models/gp.py" />
+        <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/models_utility/__init__.py" />
+        <option value="$PROJECT_DIR$/main_exp_v2.py" />
+        <option value="$PROJECT_DIR$/models_benchmark.py" />
+        <option value="$PROJECT_DIR$/models_benchmark/knndtw.py" />
+        <option value="$PROJECT_DIR$/main_exp_v2_benchmark.py" />
+        <option value="$PROJECT_DIR$/main_exp_v23_benchmark.py" />
+        <option value="$PROJECT_DIR$/main_exp_v3.py" />
+        <option value="$PROJECT_DIR$/main_exp1.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/demo2.py" />
+        <option value="$PROJECT_DIR$/main_exp1_v2.py" />
+        <option value="$PROJECT_DIR$/main_exp1-1.py" />
+        <option value="$PROJECT_DIR$/kernels/RBF_kernel.py" />
+        <option value="$PROJECT_DIR$/models_utility/likelihoods.py" />
+        <option value="$PROJECT_DIR$/kernels/kernel.py" />
+        <option value="$PROJECT_DIR$/kernels/Periodic_kernel.py" />
+        <option value="$PROJECT_DIR$/main_exp1-1_v2.py" />
+        <option value="$PROJECT_DIR$/main_exp3_v2.py" />
+        <option value="$PROJECT_DIR$/main_exp3.py" />
+        <option value="$PROJECT_DIR$/main_exp1-2_v2.py" />
+        <option value="$PROJECT_DIR$/kernels/SM_kernel.py" />
+        <option value="$PROJECT_DIR$/models/hmm_models_v3.py" />
+        <option value="$PROJECT_DIR$/models/emission_gp.py" />
+        <option value="$PROJECT_DIR$/models_utility/function_gp.py" />
+        <option value="$PROJECT_DIR$/models_utility/construct_models.py" />
+        <option value="$PROJECT_DIR$/models/emission_gp_rrff.py" />
+        <option value="$PROJECT_DIR$/main_exp1-2_v3.py" />
+        <option value="$PROJECT_DIR$/models/hmm_models_v4.py" />
+        <option value="$PROJECT_DIR$/check.py" />
+        <option value="$PROJECT_DIR$/main_exp2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1933" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="real" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="jupyters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="kernels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UAI20_HybridHmmGP-master_9234" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UAI20_HybridHmmGP-master_9234" type="462c0819:PsiDirectoryNode" />
+              <item name="models_utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UAI20_HybridHmmGP-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master_9234" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\dataset\real" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\models_utility" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\dataset\real" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\UAI20_HybridHMMGP\models_utility" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\UAI20_HybridHMMGP" />
+      <recent name="C:\Users\YOHAN\Desktop\UAI20_HybridHmmGP-master\utility" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main_exp1-2_v3">
+    <configuration name="emission_gp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAI20_HybridHmmGP-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/emission_gp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="emission_gp_rrff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAI20_HybridHmmGP-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/emission_gp_rrff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="function_gp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAI20_HybridHmmGP-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models_utility" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models_utility/function_gp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hmm_models_v4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAI20_HybridHmmGP-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/hmm_models_v4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_exp1-2_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UAI20_HybridHmmGP-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_exp1-2_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_exp1-2_v3" />
+        <item itemvalue="Python.emission_gp_rrff" />
+        <item itemvalue="Python.hmm_models_v4" />
+        <item itemvalue="Python.function_gp" />
+        <item itemvalue="Python.emission_gp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3248c3ba-128e-4eb1-8212-339e28200244" name="Default Changelist" comment="" />
+      <created>1579567644844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579567644844</updated>
+      <workItem from="1579567646209" duration="124567000" />
+      <workItem from="1580578525259" duration="38408000" />
+      <workItem from="1580706232431" duration="6803000" />
+      <workItem from="1580719260411" duration="436328000" />
+      <workItem from="1583220867458" duration="6004000" />
+      <workItem from="1583482314947" duration="2408000" />
+      <workItem from="1584004235781" duration="3520000" />
+      <workItem from="1585545314787" duration="91000" />
+      <workItem from="1585545592043" duration="1486000" />
+      <workItem from="1589726537440" duration="25460000" />
+      <workItem from="1590717533650" duration="1215000" />
+      <workItem from="1592231108576" duration="17398000" />
+      <workItem from="1592293824291" duration="19284000" />
+      <workItem from="1592362850748" duration="70430000" />
+      <workItem from="1593483269223" duration="81440000" />
+      <workItem from="1594810437632" duration="598000" />
+      <workItem from="1595071865735" duration="1822000" />
+      <workItem from="1601209704211" duration="1298000" />
+      <workItem from="1601643078251" duration="3234000" />
+      <workItem from="1602132982062" duration="96027000" />
+      <workItem from="1602804900926" duration="45730000" />
+      <workItem from="1604305638990" duration="2349000" />
+      <workItem from="1606697803888" duration="219000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1582815930618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582815930618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1582816042302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582816042302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1582816639032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582816639032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update2">
+      <created>1582819737355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582819737356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1585545675387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585545675387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1071406000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917964" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.25233644" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.31152648" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Run" order="6" visible="true" weight="0.2707889" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917964" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.25337487" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32917964" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Run" order="6" visible="true" weight="0.23560767" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update2" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/298313542/-103761734/sklearn/cluster/k_means_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="968" selection-start-line="968" selection-end-line="968" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/298313542/-103761734/scipy/signal/spectral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="1968" selection-start-line="1968" selection-end-line="1968" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run_Exp3.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp_v1.py" />
+    <entry file="file://$PROJECT_DIR$/Run_Exp1.py" />
+    <entry file="file://$PROJECT_DIR$/Run_Exp2.py" />
+    <entry file="file://$PROJECT_DIR$/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_utility/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_benchmark.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp_v2_benchmark.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp_v23_benchmark.py" />
+    <entry file="file://$PROJECT_DIR$/models_benchmark/knndtw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp_v2.py" />
+    <entry file="file://$PROJECT_DIR$/models/gp.py" />
+    <entry file="file://$PROJECT_DIR$/models/demo2.png" />
+    <entry file="file://$PROJECT_DIR$/main_exp12.py" />
+    <entry file="file://$PROJECT_DIR$/models_utility/train_models.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp_v3.py" />
+    <entry file="file://$PROJECT_DIR$/models/gp_rrff.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/298313542/-103761734/scipy/io/matlab/mio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="302" column="4" selection-start-line="302" selection-start-column="4" selection-end-line="302" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="39" column="35" lean-forward="true" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp1_v2.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp1.py" />
+    <entry file="file://$PROJECT_DIR$/main_exp1-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="186" column="54" selection-start-line="186" selection-start-column="54" selection-end-line="186" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_utility/likelihoods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernels/RBF_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/hmm_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp1-1_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2286">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_utility/param_gp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="e#2#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernels/kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernels/Periodic_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/1668804149/1648455675/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="534" selection-start-line="534" selection-end-line="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/1668804149/1648455675/torch/autograd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/1668804149/1648455675/torch/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/hmm_models_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4014">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/emission_gp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#42#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_utility/function_gp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="310" column="78" selection-start-line="310" selection-start-column="78" selection-end-line="310" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp1-2_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5364">
+          <caret line="302" column="53" selection-start-line="302" selection-start-column="53" selection-end-line="302" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check.py" />
+    <entry file="file://$PROJECT_DIR$/jupyters/get_pickle_result_exp3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp1-2_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernels/SM_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/emission_gp_rrff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12240">
+          <caret line="692" selection-start-line="692" selection-end-line="692" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp3_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp1-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/hmm_models_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_utility/construct_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2358">
+          <caret line="148" column="58" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_exp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" lean-forward="true" selection-end-line="204" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
