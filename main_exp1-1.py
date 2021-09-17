@@ -68,8 +68,7 @@ exp_setting['device'] = False
 
 x_train, y_train, z_train, x_test, y_test, z_test, \
 true_freq, true_weight, true_noise_level, true_num_state = _process_Synthetic(data_file_path, exp_setting)
-
-exp_setting['input_length'] = len(x_train[0])
+exp_setting['input_length'] = len(x_train[1])
 
 ###############################################
 ###############################################

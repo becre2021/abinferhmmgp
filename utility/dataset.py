@@ -18,6 +18,10 @@ def _process_Synthetic(data_file_path,exp_setting):
     y_train, y_test = y_full[:T,:], y_full[T:,:]
     z_train, z_test = z_full[0,:T], z_full[0,T:]
 
+    # to make z \in [0,1,..,K-1] for K states
+    z_test -= 1
+    z_train -= 1
+    
 
     freq, weight = Synthetic['freq1'], Synthetic['weight1']
     noise_level,num_state = Synthetic['noise_level'], Synthetic['num_state']
@@ -46,6 +50,8 @@ def _process_Real2(data_file_path, down_sample):
 
     return x_train[:,::down_sample], y_train[:,::down_sample],z_train, \
            x_test[:,::down_sample], y_test[:,::down_sample], z_test, num_state
+
+
 
 
 

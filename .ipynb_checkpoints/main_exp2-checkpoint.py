@@ -22,7 +22,6 @@ data_file_path = file_path + file_name
 x_train, y_train, z_train, x_test, y_test, z_test, num_state = _process_Real2(data_file_path,down_sample=10)
 
 print(np.shape(x_train))
-print(z_train)
 
 ###############################################################################################
 # experiment_setting

@@ -342,7 +342,13 @@ class HMM_EmissionGP(Module):
         param_history_dict['var_A'] = ith_var_param_A_list
         param_history_dict['var_pi'] = ith_var_param_pi_list
 
-        return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),np.asarray(time_list),np.asarray(num_cluster_list) , param_history_dict
+        
+        return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),np.asarray(time_list), param_history_dict ,np.array(zpred_list)     
+    
+    
+        #return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),np.asarray(time_list),np.asarray(num_cluster_list) , param_history_dict
+    
+    
 #         return np.asarray(log_lik_list),np.asarray(accuracy_list),np.asarray(test_accuracy_list), np.asarray(test_exact_accuracy_list),\
 #                np.asarray(time_list), np.asarray(num_cluster_list),\
 #                np.asarray(num_test_cluster_list),np.asarray(num_test_exact_cluster_list), param_history_dict
@@ -520,7 +526,6 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
             self._run_Mstep(gamma_list, log_batch_obs_list, kl_term_list , decay_option = True)
             t1 = time.time()
 
-            print('iter {:d}, iteration time : {:.3f}'.format(i , t1 - t0))            
             
             
             
@@ -529,7 +534,7 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
             ####################################################################################
             #if (i % int(self.iter_train/(self.iter_train/4)) == 0) or i == 1:                
             #if (i % int(self.iter_train) == 0) or i == 1:                
-            if (i % 1 == 0) or i == 1:                
+            if (i % 2 == 0) or i == 1:                
                 
                 z_train_pred, train_elbo, train_lik  = self._run_smoothing(x_train,y_train,num_test_batch=self.num_k_emission,test_option=False)
                 z_test_pred, test_elbo, test_lik = self._run_smoothing(x_test, y_test, num_test_batch=self.num_k_emission, test_option=False)            
@@ -547,11 +552,12 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
                     z_train_pred_e, train_elbo_e, train_lik_e = z_train_pred, train_elbo, train_lik
                     z_test_pred_e, test_elbo_e, test_lik_e = z_test_pred, test_elbo, test_lik
                 else:
-#                     z_train_pred_e, train_elbo_e, train_lik_e  = self._run_smoothing(x_train,y_train,num_test_batch=self.num_k_emission,test_option=True)
-#                     z_test_pred_e, test_elbo_e, test_lik_e = self._run_smoothing(x_test, y_test, num_test_batch=self.num_k_emission, test_option=True) 
-
-                    z_train_pred_e, train_elbo_e, train_lik_e = z_train_pred, train_elbo, train_lik
-                    z_test_pred_e, test_elbo_e, test_lik_e = z_test_pred, test_elbo, test_lik
+                    z_train_pred_e, train_elbo_e, train_lik_e  = self._run_smoothing(x_train,y_train,num_test_batch=self.num_k_emission,test_option=True)
+                    z_test_pred_e, test_elbo_e, test_lik_e = self._run_smoothing(x_test, y_test, num_test_batch=self.num_k_emission, test_option=True) 
+                    
+                    #cwru dataset
+                    #z_train_pred_e, train_elbo_e, train_lik_e = z_train_pred, train_elbo, train_lik
+                    #z_test_pred_e, test_elbo_e, test_lik_e = z_test_pred, test_elbo, test_lik
 
                 train_acc_e = accuracy(z_train, z_train_pred_e)
                 test_acc_e = accuracy(z_test, z_test_pred_e)
@@ -560,6 +566,7 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
                 print('-'*200)
                 print('iter {:d}, iteration time : {:.3f}| train acc : {:.3f}, train lik : {:.3f}, \t test acc : {:.3f}, test lik : {:.3f} |e train acc : {:.3f}, e train lik : {:.3f} e test acc : {:.3f}, e test lik : {:.3f} '.format(i , t1 - t0, train_acc,train_lik ,test_acc,test_lik, train_acc_e, train_lik_e,test_acc_e, test_lik_e) )
                 print('-'*200)
+                
                 train_accuracy_list.append((train_acc,train_acc_e))
                 test_accuracy_list.append((test_acc,test_acc_e))                
                 log_lik_list.append((train_elbo,train_lik,test_elbo,test_lik,train_lik_e,test_lik_e))
@@ -581,12 +588,15 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
         param_history_dict['var_pi'] = ith_var_param_pi_list
 
 
-        
-        return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),\
-               np.asarray(time_list),np.asarray(num_cluster_list), param_history_dict ,np.array(zpred_list)
 
-    
-    
+        return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),\
+               np.asarray(time_list), param_history_dict ,np.array(zpred_list)
+        
+        
+#         return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list),\
+#                np.asarray(time_list),np.asarray(num_cluster_list), param_history_dict ,np.array(zpred_list)
+
+
         #np.asarray(log_lik_list) : (train_elbo,train_li,test_elbo_test_lik)
 #         return np.asarray(log_lik_list),np.asarray(train_accuracy_list),np.asarray(test_accuracy_list), np.asarray(test_exact_accuracy_list),\
 #                np.asarray(time_list), np.asarray(num_cluster_list),\
