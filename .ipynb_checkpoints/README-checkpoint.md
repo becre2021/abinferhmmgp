@@ -5,7 +5,8 @@
 
 We provide the implementation and experiment results for the paper Scalable Inference for Hybrid Bayesian Hidden MarkovModel Using Gaussian Process Emission.
 
-![ScreenShot](https://github.com/{becre2021}/{abinferhmmgp}/{main}/{imag/Grapicalmodel2.PNG})
+<img src="https://github.com/becre2021/abinferhmmgp/blob/main/img/Grapicalmodel2.PNG" width="400" height="790">
+
 
  
 ## Description
@@ -21,23 +22,22 @@ We provide the implementation and experiment results for the paper Scalable Infe
 
 * Section4.2-SVI.ipynb : HMMGPSM trained by SVI with the described synthetic dataset
 * Section4.3-SVI+AGPE.ipynb : HMMGPSM trained by SVI+AGPE with the described synthetic dataset
-
-* main_exp1-1.py : Section 4.2 experiment with large $T$
-* main_exp1-2.py : Section 4.3 experiment with large $N_t$
-* main_exp2.py : Section 5.1 experiment with large $T$
-* main_exp3.py : Section 5.2 experiment with large $N_t$
+* main_exp1-1.py : Section 4.2 experiment with large T
+* main_exp1-2.py : Section 4.3 experiment with large Nt
+* main_exp2.py : Section 5.1 experiment with large T
+* main_exp3.py : Section 5.2 experiment with large Nt
 
 
 
 ## Requirements
 
 * python >= 3.6
-* torch = 1.7
+* torch >= 1.7
 * pandas
-* scipy
-* scikit-learn version   0.21.2
-* scipy                  1.4.1
-* 
+* scikit-learn  0.21.2
+* scipy         1.4.1
+* munkres
+
 
 ## Dataset
 
@@ -49,7 +49,7 @@ We provide the implementation and experiment results for the paper Scalable Infe
 
 ## Installation
 
-    git clone https://github.com/ABInferGSM/src.git
+    git clone https://github.com/becre2021/abinferhmmgp
     if necessary, install the required module as follows
     pip3 install module-name
     ex) pip3 install numpy 
@@ -60,7 +60,7 @@ We provide the implementation and experiment results for the paper Scalable Infe
 * https://github.com/dillonalaird/pysvihmm
 * https://github.com/lindermanlab/ssm
 * https://github.com/becre2021/abinfergsm
-
+* http://www.tsc.uc3m.es/~miguel/downloads.php
 
 
 

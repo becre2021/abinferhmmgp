@@ -534,7 +534,7 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
             ####################################################################################
             #if (i % int(self.iter_train/(self.iter_train/4)) == 0) or i == 1:                
             #if (i % int(self.iter_train) == 0) or i == 1:                
-            if (i % 2 == 0) or i == 1:                
+            if (i % 5 == 0) or i == 1:                
                 
                 z_train_pred, train_elbo, train_lik  = self._run_smoothing(x_train,y_train,num_test_batch=self.num_k_emission,test_option=False)
                 z_test_pred, test_elbo, test_lik = self._run_smoothing(x_test, y_test, num_test_batch=self.num_k_emission, test_option=False)            
@@ -563,9 +563,9 @@ class SVI_HMM_EmissionGP(HMM_EmissionGP):
                 test_acc_e = accuracy(z_test, z_test_pred_e)
 
 
-                print('-'*200)
+                print('-'*100)
                 print('iter {:d}, iteration time : {:.3f}| train acc : {:.3f}, train lik : {:.3f}, \t test acc : {:.3f}, test lik : {:.3f} |e train acc : {:.3f}, e train lik : {:.3f} e test acc : {:.3f}, e test lik : {:.3f} '.format(i , t1 - t0, train_acc,train_lik ,test_acc,test_lik, train_acc_e, train_lik_e,test_acc_e, test_lik_e) )
-                print('-'*200)
+                print('-'*100)
                 
                 train_accuracy_list.append((train_acc,train_acc_e))
                 test_accuracy_list.append((test_acc,test_acc_e))                
