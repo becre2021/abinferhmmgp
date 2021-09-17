@@ -6,7 +6,7 @@
 We provide the implementation and experiment results for the paper Scalable Inference for Hybrid Bayesian Hidden MarkovModel Using Gaussian Process Emission.
 
 <p align="center">
-    <img src="https://github.com/becre2021/abinferhmmgp/blob/main/img/Grapicalmodel2.PNG" width="350" height="200">
+    <img src="https://github.com/becre2021/abinferhmmgp/blob/main/img/Grapicalmodel2.PNG" width="500" height="250">
 </p>
 
 
@@ -36,8 +36,8 @@ We provide the implementation and experiment results for the paper Scalable Infe
 * python >= 3.6
 * torch >= 1.7
 * pandas
-* scikit-learn  0.21.2
-* scipy         1.4.1
+* scikit-learn  
+* scipy        
 * munkres
 
 
