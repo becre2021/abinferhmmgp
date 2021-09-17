@@ -20,14 +20,17 @@ We provide the implementation and experiment results for the paper Scalable Infe
 * models/emission_gp_rrff.py : approximate gp emission
 
 
-### Experiments
+### Examples
 
 * Section4.2-SVI.ipynb : HMMGPSM trained by SVI with the described synthetic dataset
 * Section4.3-SVI+AGPE.ipynb : HMMGPSM trained by SVI+AGPE with the described synthetic dataset
-* main_exp1-1.py : Section 4.2 experiment with large T
-* main_exp1-2.py : Section 4.3 experiment with large Nt
-* main_exp2.py : Section 5.1 experiment with large T
-* main_exp3.py : Section 5.2 experiment with large Nt
+
+### Experiments
+
+* experiments/main_exp1-1.py : Section 4.2 experiment with large T
+* experiments/main_exp1-2.py : Section 4.3 experiment with large Nt
+* experiments/main_exp2.py : Section 5.1 experiment with large T
+* experiments/main_exp3.py : Section 5.2 experiment with large Nt
 
 
 
