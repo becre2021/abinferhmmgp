@@ -1,6 +1,3 @@
-# abinferhmmgp
-
-
 ##  Scalable Inference for Hybrid Bayesian Hidden MarkovModel Using Gaussian Process Emission (summmited to JCGS)
 
 We provide the implementation and experiment results for the paper Scalable Inference for Hybrid Bayesian Hidden MarkovModel Using Gaussian Process Emission.
