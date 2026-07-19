@@ -64,5 +64,24 @@ We provide the implementation and experiment results for the paper Scalable Infe
 * http://www.tsc.uc3m.es/~miguel/downloads.php
 
 
+## Citation
+
+If you find this repository useful, please cite the following paper:
+
+```bibtex
+@article{jung2022scalable,
+  title   = {Scalable Inference for Hybrid Bayesian Hidden Markov Model Using Gaussian Process Emission},
+  author  = {Jung, Yohan and Park, Jinkyoo},
+  journal = {Journal of Computational and Graphical Statistics},
+  volume  = {31},
+  number  = {3},
+  pages   = {666--683},
+  year    = {2022},
+  doi     = {10.1080/10618600.2021.2023021},
+  url     = {https://doi.org/10.1080/10618600.2021.2023021}
+}
+```
+
+
 
 
